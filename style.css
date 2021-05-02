@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    background: #d1913c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top right, #ffd194, #d1913c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top right, #ffd194, #d1913c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 500px;
+    min-height: 350px;
+}
+
+#quote-box {
+    position: relative;
+    color: #fff;
+    padding: 20px 70px;
+    border-radius: 10px;
+    background-image: linear-gradient( 65.9deg, rgba(85, 228, 224, 1) 5.5%, rgba(75, 68, 224, 0.74) 54.2%, rgba(64, 198, 238, 1) 55.2%, rgba(177, 36, 224, 1) 98.4%);
+    filter: drop-shadow(2px 5px 4px rgba(0, 0, 0, 0.6));
+}
+
+#quote-box .quote-text .fas.fa-quote-left {
+    position: absolute;
+    font-size: 4rem;
+    padding-right: 10px;
+    left: -20px;
+    top: -35px;
+}
+
+#quote-box .quote-text .fas.fa-quote-right {
+    position: absolute;
+    font-size: 4rem;
+    padding-right: 10px;
+    right: -20px;
+    bottom: -35px;
+}
+
+#text {
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.quote-author {
+    padding-top: 1.6rem;
+    text-align: right;
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-right: 0;
+}
+
+.buttons {
+    display: flex;
+    padding-top: 1rem;
+    cursor: pointer;
+    padding-top: 2rem;
+}
+
+.buttons .button {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.buttons a {
+    text-align: left;
+    font-size: 1.7rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.buttons a:hover {
+    color: #24272c;
+}
+
+.buttons button {
+    margin-left: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #24272c;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+    background-color: #fff;
+    color: #24272c;
+    cursor: pointer;
+}
+
+.footer {
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.footer a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #24272c;
+    font-weight: 500;
+}
